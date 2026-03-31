@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Smooth scrolling in message list */
+.msg-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #2b5278 transparent;
+}
+
+.msg-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.msg-scroll::-webkit-scrollbar-thumb {
+  background: #2b5278;
+  border-radius: 3px;
+}
