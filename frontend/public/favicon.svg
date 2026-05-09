@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Fluxgram">
+  <defs>
+    <linearGradient id="flux" x1="8" y1="6" x2="26" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5288c1"/>
+      <stop offset="1" stop-color="#6b9fd4"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#17212b"/>
+  <path
+    fill="url(#flux)"
+    d="M9 8.5h11.5a2.5 2.5 0 0 1 2.5 2.5v6.5a2.5 2.5 0 0 1-2.5 2.5h-7.2L9 23.5v-3.5H9a2.5 2.5 0 0 1-2.5-2.5V11A2.5 2.5 0 0 1 9 8.5Z"
+  />
+  <circle cx="13" cy="14" r="1.35" fill="#17212b" opacity="0.9"/>
+  <circle cx="16.15" cy="14" r="1.35" fill="#17212b" opacity="0.9"/>
+  <circle cx="19.3" cy="14" r="1.35" fill="#17212b" opacity="0.9"/>
+</svg>
