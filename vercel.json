@@ -4,13 +4,7 @@
   "outputDirectory": "frontend/dist",
   "rewrites": [
     {
-      "source": "/(.*)",
-      "has": [{ "type": "header", "key": "Sec-Fetch-Dest", "value": "document" }],
-      "destination": "/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "has": [{ "type": "header", "key": "Accept", "value": "^text/html" }],
+      "source": "/((?!favicon\\.|assets/).*)",
       "destination": "/index.html"
     }
   ]
